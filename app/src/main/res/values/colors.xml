@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="headbar">#3c6571</color>
+    <color name="materialebackgroun">#474949</color>
+    <color name="descriptionbg">#686868</color>
+    <color name="FragmentFour">#f5f5f5</color>
+    <color name="darkershade">#1e2761</color>
+</resources>

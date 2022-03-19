@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chuac.projectmbap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icona"
+        android:label="HairFun"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="HairFun" />
+        <activity
+            android:name=".SignInActivity"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".SignUPactivity"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ProfilePage"
+            android:theme="@style/AppThemeOslo"
+            android:label="Profile Page" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:theme="@style/AppThemeStockholm"
+            android:label="Change Password"
+            android:noHistory="true" />
+        <activity
+            android:name=".ChangeEmailActivity"
+            android:theme="@style/AppThemeStockholm"
+            android:label="Change Email"
+            android:noHistory="true" />
+        <activity android:name=".HairstyleDescriptionActivity"
+            android:theme="@style/AppTheme2019"
+            android:label="Hair Description"/>
+        <activity
+            android:name=".CommentActivity"
+            android:label="Comments"
+            android:theme="@style/AppTheme2018"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FavouritesActivity"
+            android:theme="@style/AppTheme2019"
+            android:label="Favourites"/>
+        <activity android:name=".DetailsActivity"
+            android:label="What it means"/>
+            <!--android:theme="@style/AppTheme2018"-->
+    </application>
+
+</manifest>
